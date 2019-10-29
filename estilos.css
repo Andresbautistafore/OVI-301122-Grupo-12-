@@ -51,5 +51,6 @@ nav li a {
 }
 
 nav li a:hover {
+  background: #045FB4 ;
   color: white;
 }
