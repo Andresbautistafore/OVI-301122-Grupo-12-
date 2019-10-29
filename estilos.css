@@ -1,0 +1,55 @@
+body{
+	background: #f2f2f2;
+}
+
+p{
+	color: red;
+	
+}
+
+div img{
+  float: right;
+  width: 84px;
+}
+
+.titu{
+  text-align: center;
+  align-items: center;
+  width: 99%;
+  height: 70px;
+  flex-basis: auto;
+  /*border: 1px solid;*/
+}
+
+/*menu*/
+nav {
+  padding: 1em;
+  font-family: font-family: Verdana, Geneva, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #005883;
+  display: flex;
+  
+}
+
+nav li{
+	flex-grow: 1;
+	text-align: center;
+}
+
+nav li a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+
+nav li a:hover {
+  color: white;
+}
