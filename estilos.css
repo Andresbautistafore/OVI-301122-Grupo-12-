@@ -54,3 +54,17 @@ nav li a:hover {
   background: #045FB4 ;
   color: white;
 }
+
+
+/*Contador de vistas*/
+.cont{
+  border: 1px solid;
+  width: 30px;
+  display: inline-flex;
+}
+
+.contim{
+  width: 13px;
+  border: 1px solid;
+  background: #E8AF4D;
+}
